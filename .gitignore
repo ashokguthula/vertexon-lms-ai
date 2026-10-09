@@ -1,0 +1,32 @@
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build output
+dist/
+build/
+coverage/
+.next/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local tools and operating system
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local database and uploaded files
+*.sqlite
+*.db
+uploads/
